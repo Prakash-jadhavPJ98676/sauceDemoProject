@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  ChromeBrouser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeBrouser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 07 14:57:49 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>153 seconds (153801 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn.backHomeBTN()'><b>backHomeBTN</b><br>Test class: com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn@68999068</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn.finishBTN()'><b>finishBTN</b><br>Test class: com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn@68999068</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyAcceptedUsernamesTextOnLoginPage.VerifyLoginTextId()'><b>VerifyLoginTextId</b><br>Test class: com.SauceDemo.Base.VerifyAcceptedUsernamesTextOnLoginPage</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyAcceptedUsernamesTextOnLoginPage@2667f029</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn.continueBTN()'><b>continueBTN</b><br>Test class: com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn@68999068</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifySettingBtnAndSettingOptionText.VerifySettingBtnAndSettingOptionText()'><b>VerifySettingBtnAndSettingOptionText</b><br>Test class: com.SauceDemo.Base.VerifySettingBtnAndSettingOptionText</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemo.Base.VerifySettingBtnAndSettingOptionText@130161f7</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductSortContainerOptiosList3.VerifyOptionNameLowToHighList()'><b>VerifyOptionNameLowToHighList</b><br>Test class: com.SauceDemo.Base.VerifyProductSortContainerOptiosList3</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyProductSortContainerOptiosList3@291ae</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductSortContainerOptiosList2.VerifyOptionNameZtoAList()'><b>VerifyOptionNameZtoAList</b><br>Test class: com.SauceDemo.Base.VerifyProductSortContainerOptiosList2</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyProductSortContainerOptiosList2@243c4f91</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn.checkOutData()'><b>checkOutData</b><br>Test class: com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn@68999068</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyHomePageTitle.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.SauceDemo.Base.VerifyHomePageTitle</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyHomePageTitle@c33b74f</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyHomePageProductsNameOfSD.productNameVerification()'><b>productNameVerification</b><br>Test class: com.SauceDemo.Base.VerifyHomePageProductsNameOfSD</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemo.Base.VerifyHomePageProductsNameOfSD@2c767a52</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductSortContainerOptiosList4.VerifyOptionNameHighToLowList()'><b>VerifyOptionNameHighToLowList</b><br>Test class: com.SauceDemo.Base.VerifyProductSortContainerOptiosList4</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyProductSortContainerOptiosList4@61df66b6</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyLoginOfSDNegative.loginNegativeScenario()'><b>loginNegativeScenario</b><br>Test class: com.SauceDemo.Base.VerifyLoginOfSDNegative</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyLoginOfSDNegative@35ef1869</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductSortContainerAndOptions.verifyProductSortContainer()'><b>verifyProductSortContainer</b><br>Test class: com.SauceDemo.Base.VerifyProductSortContainerAndOptions</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyProductSortContainerAndOptions@7722c3c3</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyYourCartProducts.yourCartProductsAvailable()'><b>yourCartProductsAvailable</b><br>Test class: com.SauceDemo.Base.VerifyYourCartProducts</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemo.Base.VerifyYourCartProducts@50eac852</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn.checkOutBTN()'><b>checkOutBTN</b><br>Test class: com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn@68999068</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyLoginOfSDPositive.loginPositiveScenario()'><b>loginPositiveScenario</b><br>Test class: com.SauceDemo.Base.VerifyLoginOfSDPositive</td>
+<td></td>
+<td>1</td>
+<td>com.SauceDemo.Base.VerifyLoginOfSDPositive@3c407114</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductSortContainerOptiosList1.VerifyOptionNameAtoZList()'><b>VerifyOptionNameAtoZList</b><br>Test class: com.SauceDemo.Base.VerifyProductSortContainerOptiosList1</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyProductSortContainerOptiosList1@2ef3eef9</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN.addToCart()'><b>addToCart</b><br>Test class: com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN</td>
+<td></td>
+<td>2</td>
+<td>com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN@708f5957</td></tr>
+<tr>
+<td title='com.SauceDemo.Base.VerifyHomePageProductsPriceOfSD.productPriceVerification()'><b>productPriceVerification</b><br>Test class: com.SauceDemo.Base.VerifyHomePageProductsPriceOfSD</td>
+<td></td>
+<td>0</td>
+<td>com.SauceDemo.Base.VerifyHomePageProductsPriceOfSD@619713e5</td></tr>
+</table><p>
+</body>
+</html>

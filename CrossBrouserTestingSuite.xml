@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrouserSuite">
+  <test thread-count="1"  name="chromeBrouser">
+ <parameter name="BrouserName" value="chrome"></parameter>
+    <classes>
+     <class name="com.SauceDemo.Base.VerifyAcceptedUsernamesTextOnLoginPage"/>
+     <class name="com.SauceDemo.Base.VerifyLoginOfSDPositive"/>
+     <class name="com.SauceDemo.Base.VerifyLoginOfSDNegative"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageTitle"/>
+      <class name="com.SauceDemo.Base.VerifySettingBtnAndSettingOptionText"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageProductsNameOfSD"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageProductsPriceOfSD"/>
+      <class name="com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN"/>
+      <class name="com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerAndOptions"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList1"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList2"/> 
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList3"/>  
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList4"/>
+      <class name="com.SauceDemo.Base.VerifyYourCartProducts"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1"  name="firefox">
+   <parameter name="BrouserName" value="firefox"></parameter>
+    <classes>
+      <class name="com.SauceDemo.Base.VerifyAcceptedUsernamesTextOnLoginPage"/>
+     <class name="com.SauceDemo.Base.VerifyLoginOfSDPositive"/>
+     <class name="com.SauceDemo.Base.VerifyLoginOfSDNegative"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageTitle"/>
+      <class name="com.SauceDemo.Base.VerifySettingBtnAndSettingOptionText"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageProductsNameOfSD"/>
+      <class name="com.SauceDemo.Base.VerifyHomePageProductsPriceOfSD"/>
+      <class name="com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN"/>
+      <class name="com.SauceDemo.Base.VerifyCheckOutBtnCheckOutDataContinueBtnFinishBtnBackHomeBtn"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerAndOptions"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList1"/>
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList2"/> 
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList3"/>  
+      <class name="com.SauceDemo.Base.VerifyProductSortContainerOptiosList4"/>
+      <class name="com.SauceDemo.Base.VerifyYourCartProducts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

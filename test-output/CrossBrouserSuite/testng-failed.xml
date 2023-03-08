@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrouserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxBrouser(failed)">
+    <parameter name="BrouserName" value="firefox"/>
+    <classes>
+      <class name="com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN">
+        <methods>
+          <include name="homePageOpen"/>
+          <include name="addToCart"/>
+          <include name="closePage"/>
+        </methods>
+      </class> <!-- com.SauceDemo.Base.VerifyProductsAddToCartBackToProductBTN -->
+      <class name="com.SauceDemo.Base.VerifyYourCartProducts">
+        <methods>
+          <include name="yourCartProductsAvailable"/>
+          <include name="homePageOpen"/>
+          <include name="closePage"/>
+        </methods>
+      </class> <!-- com.SauceDemo.Base.VerifyYourCartProducts -->
+    </classes>
+  </test> <!-- FirefoxBrouser(failed) -->
+</suite> <!-- Failed suite [CrossBrouserSuite] -->
